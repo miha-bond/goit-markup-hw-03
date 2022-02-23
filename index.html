@@ -10,6 +10,7 @@
       rel="stylesheet"
     />
     <link
+      rel="stylesheet"
       href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/1.1.0/modern-normalize.min.css"
     />
     <link rel="stylesheet" href="./css/styles.css" />
@@ -49,7 +50,7 @@
     </header>
 
     <main>
-      <section class="slogan">
+      <section class="slogan section">
         <h1 class="slogan-text">
           Эффективные решения <br />
           для вашего бизнеса
@@ -57,9 +58,9 @@
         <button class="slogan-button" type="button">Заказать услугу</button>
       </section>
       <!--Секцыя приимуществ-->
-      <div class="container">
-        <section>
-          <h2 hidden>Наши преимущества</h2>
+      <section class="section">
+        <div class="container">
+          <h2 class="title-benefits">Наши преимущества</h2>
           <ul class="content-list">
             <li class="list">
               <h3 class="list-title">Внимание к деталям</h3>
@@ -90,12 +91,12 @@
               </p>
             </li>
           </ul>
-        </section>
-      </div>
+        </div>
+      </section>
 
       <!--Фото деятельности-->
-      <div class="container">
-        <section class="work">
+      <section class="work section">
+        <div class="container">
           <h2 class="work-title">Чем мы занимаемся</h2>
           <ul class="work-list">
             <li class="list-work">
@@ -123,10 +124,10 @@
               />
             </li>
           </ul>
-        </section>
-      </div>
+        </div>
+      </section>
       <!--Секцыя с командой-->
-      <section class="team">
+      <section class="team section">
         <div class="container">
           <h2 class="team-title">Наша команда</h2>
           <ul class="team-list">
@@ -138,8 +139,10 @@
                 width="270"
                 height="260"
               />
-              <h3 class="team-subtitle">Игорь Демьяненко</h3>
-              <p class="team-text" lang="en">Product Designer</p>
+              <div class="team-subtitle-text">
+                <h3 class="team-subtitle">Игорь Демьяненко</h3>
+                <p class="team-text" lang="en">Product Designer</p>
+              </div>
             </li>
             <li class="foto-team-list">
               <img
@@ -149,8 +152,10 @@
                 width="270"
                 height="260"
               />
-              <h3 class="team-subtitle">Ольга Репина</h3>
-              <p class="team-text" lang="en">Frontend Developer</p>
+              <div class="team-subtitle-text">
+                <h3 class="team-subtitle">Ольга Репина</h3>
+                <p class="team-text" lang="en">Frontend Developer</p>
+              </div>
             </li>
             <li class="foto-team-list">
               <img
@@ -160,8 +165,10 @@
                 width="270"
                 height="260"
               />
-              <h3 class="team-subtitle">Николай Тарасов</h3>
-              <p class="team-text" lang="en">Marketing</p>
+              <div class="team-subtitle-text">
+                <h3 class="team-subtitle">Николай Тарасов</h3>
+                <p class="team-text" lang="en">Marketing</p>
+              </div>
             </li>
             <li class="foto-team-list">
               <img
@@ -171,8 +178,10 @@
                 width="270"
                 height="260"
               />
-              <h3 class="team-subtitle">Михаил Ермаков</h3>
-              <p class="team-text" lang="en">UI Designer</p>
+              <div class="team-subtitle-text">
+                <h3 class="team-subtitle">Михаил Ермаков</h3>
+                <p class="team-text" lang="en">UI Designer</p>
+              </div>
             </li>
           </ul>
         </div>
@@ -184,8 +193,8 @@
         <a class="logo-footer" href="./index.html"
           >Web<samp class="logostudio-footer">Studio</samp></a
         >
-        <address>
-          <ul class="address">
+        <address class="address">
+          <ul class="address-list">
             <li class="contact-list-footer">
               <a
                 class="contactfooter-map"
